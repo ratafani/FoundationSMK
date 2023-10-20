@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var buttonHeight: Double = 100
+    var buttonHeight: Double = 80
     
     @State var ofset = 0
     
