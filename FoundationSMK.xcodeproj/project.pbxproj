@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA4D7D02AE6069E004BA0FB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4D7CF2AE6069E004BA0FB /* GameView.swift */; };
+		BCA4D7D22AE62A8B004BA0FB /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4D7D12AE62A8B004BA0FB /* TestView.swift */; };
 		F6A6CD072AE13C880071DCD6 /* FoundationSMKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6CD062AE13C880071DCD6 /* FoundationSMKApp.swift */; };
 		F6A6CD092AE13C880071DCD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6CD082AE13C880071DCD6 /* ContentView.swift */; };
 		F6A6CD0B2AE13C890071DCD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A6CD0A2AE13C890071DCD6 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCA4D7CF2AE6069E004BA0FB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BCA4D7D12AE62A8B004BA0FB /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		F6A6CD032AE13C880071DCD6 /* FoundationSMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationSMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A6CD062AE13C880071DCD6 /* FoundationSMKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationSMKApp.swift; sourceTree = "<group>"; };
 		F6A6CD082AE13C880071DCD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,8 +100,10 @@
 			children = (
 				F6A6CD062AE13C880071DCD6 /* FoundationSMKApp.swift */,
 				F6A6CD082AE13C880071DCD6 /* ContentView.swift */,
+				BCA4D7CF2AE6069E004BA0FB /* GameView.swift */,
 				F6A6CD0A2AE13C890071DCD6 /* Assets.xcassets */,
 				F6A6CD0C2AE13C890071DCD6 /* Preview Content */,
+				BCA4D7D12AE62A8B004BA0FB /* TestView.swift */,
 			);
 			path = FoundationSMK;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA4D7D22AE62A8B004BA0FB /* TestView.swift in Sources */,
 				F6A6CD092AE13C880071DCD6 /* ContentView.swift in Sources */,
 				F6A6CD072AE13C880071DCD6 /* FoundationSMKApp.swift in Sources */,
+				BCA4D7D02AE6069E004BA0FB /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoundationSMK/Preview Content\"";
-				DEVELOPMENT_TEAM = 52RX5R54N7;
+				DEVELOPMENT_TEAM = 3464AT77WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoundationSMK/Preview Content\"";
-				DEVELOPMENT_TEAM = 52RX5R54N7;
+				DEVELOPMENT_TEAM = 3464AT77WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
